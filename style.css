@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a{
+    color: black;
+    font-size: 16px;
+    font-family: Arial;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 20px;
+    padding-left: 600px;
+    align-items: center;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_links li a{
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links{
+     list-style: none;
+}
+
+.logo{
+  margin-left: auto;
+}
+
+.nav{
+    order: 1;
+}
+
+
+
+.form{
+    position: absolute;
+    background: rgb(88,79,249);
+    background: linear-gradient(90deg, rgba(88,79,249,1) 0%, rgba(83,83,254,1) 30%, rgba(205,0,255,1) 64%);
+    border-radius: 100% 0% 52% 48% / 64% 92% 8% 36%  ;
+    width: 700px;
+    height: 850px;
+    left: 1220px;
+    bottom: 80px;
+    z-index: 1;
+    transition: all 1s;
+    
+}
+
+.form:hover{
+    border-radius: 97% 3% 94% 6% / 22% 65% 35% 78% ;
+}
+
+.cara{
+    width: 1100px;
+    height: 1100px;
+    position: absolute;
+    top: 0px;
+    left: 1080px; 
+}
+.cara {
+    z-index: 1;
+
+  }
+
+#picker{
+    border-radius: 30px;
+}
+
+.presentation{
+position: relative;
+left: 200px;
+top: 200px;
+}
+
+.content{
+    font-family: Arial;
+    position: absolute;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.lista{
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.hobbies{
+    left: 200px;
+    top: 600px;
+    position: absolute;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
